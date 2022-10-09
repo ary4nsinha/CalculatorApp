@@ -34,7 +34,7 @@ class MainActivity : ComponentActivity() {
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
-                        .background(Color.DarkGray)
+                        .background(Color.Blue)
                         .padding(16.dp)
                 ) {
                     Column(
@@ -51,7 +51,7 @@ class MainActivity : ComponentActivity() {
                                 .padding(vertical = 32.dp),
                             fontWeight = FontWeight.Light,
                             fontSize = 80.sp,
-                            color = Color.White,
+                            color = Color.Green,
                             maxLines = 2
                         )
                         Row(
@@ -79,7 +79,7 @@ class MainActivity : ComponentActivity() {
                             }
                             CalculatorButton(
                                 symbol = "/",
-                                color = Orange,
+                                color = Color.Yellow,
                                 modifier = Modifier
                                     .aspectRatio(1f)
                                     .weight(1f)
